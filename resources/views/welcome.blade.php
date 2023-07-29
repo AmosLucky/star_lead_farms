@@ -302,38 +302,26 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
                     <div class="swiper-slide" >
                             <div class="projects-one__single">
                                 <img src="assets/images/resources/m-2.jpeg" alt="">
-                                <div class="projects-one__content">
-                                    <h3>Harvest Innovation</h3>
-                                    <a href="project-details.html" class="projects-one__button"><i class="agrikon-icon-right-arrow"></i></a><!-- /.projects-one__button -->
-                                </div><!-- /.projects-one__content -->
+                              
                             </div><!-- /.projects-one__single -->
                         </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
                             <div class="projects-one__single">
                                 <img src="assets/images/projects/project-2-1.jpg" alt="">
-                                <div class="projects-one__content">
-                                    <h3>Harvest Innovation</h3>
-                                    <a href="project-details.html" class="projects-one__button"><i class="agrikon-icon-right-arrow"></i></a><!-- /.projects-one__button -->
-                                </div><!-- /.projects-one__content -->
+                               
                             </div><!-- /.projects-one__single -->
                         </div><!-- /.swiper-slide -->
                         
                         <div class="swiper-slide">
                             <div class="projects-one__single">
                                 <img src="assets/images/projects/project-2-2.jpg" alt="">
-                                <div class="projects-one__content">
-                                    <h3>Harvest Innovation</h3>
-                                    <a href="project-details.html" class="projects-one__button"><i class="agrikon-icon-right-arrow"></i></a><!-- /.projects-one__button -->
-                                </div><!-- /.projects-one__content -->
+                               
                             </div><!-- /.projects-one__single -->
                         </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
                             <div class="projects-one__single">
                                 <img src="assets/images/projects/project-2-3.jpg" alt="">
-                                <div class="projects-one__content">
-                                    <h3>Harvest Innovation</h3>
-                                    <a href="project-details.html" class="projects-one__button"><i class="agrikon-icon-right-arrow"></i></a><!-- /.projects-one__button -->
-                                </div><!-- /.projects-one__content -->
+                               
                             </div><!-- /.projects-one__single -->
                         </div><!-- /.swiper-slide -->
                        
@@ -341,10 +329,7 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
                         <div class="swiper-slide">
                             <div class="projects-one__single">
                                 <img src="assets/images/projects/project-2-4.jpg" alt="">
-                                <div class="projects-one__content">
-                                    <h3>Harvest Innovation</h3>
-                                    <a href="project-details.html" class="projects-one__button"><i class="agrikon-icon-right-arrow"></i></a><!-- /.projects-one__button -->
-                                </div><!-- /.projects-one__content -->
+                               
                             </div><!-- /.projects-one__single -->
                         </div><!-- /.swiper-slide -->
                     </div><!-- /.swiper-wrapper -->
@@ -367,7 +352,7 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
                         <div class="call-to-action__three-content">
                             <h3>Providing High Quality
                                 Products</h3>
-                            <a href="about.html" class="thm-btn">Discover More</a><!-- /.thm-btn -->
+                            <a href="register" class="thm-btn">Discover More</a><!-- /.thm-btn -->
                         </div><!-- /.call-to-action__three-content -->
                     </div><!-- /.col-lg-7 -->
                 </div><!-- /.row -->
@@ -388,9 +373,7 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div><!-- /.testimonials-one__icons -->
-                            <p>This is due to their excellent service, competitive pricing and customer support. It’s throughly
-                                refresing to get such a personal touch. Duis aute lorem ipsum is simply free text irure dolor in
-                                reprehenderit in esse nulla pariatur.</p>
+                            <p>Absolutely thrilled with the results! Thanks to their crop consulting, our yields have never been better. Highly recommend!.</p>
                         </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
                             <div class="testimonials-one__icons">
@@ -400,9 +383,7 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div><!-- /.testimonials-one__icons -->
-                            <p>This is due to their excellent service, competitive pricing and customer support. It’s throughly
-                                refresing to get such a personal touch. Duis aute lorem ipsum is simply free text irure dolor in
-                                reprehenderit in esse nulla pariatur.</p>
+                            <p>Outstanding livestock management services! Our herd's health and productivity have improved significantly. Thank you, {{ $company_name }}!.</p>
                         </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
                             <div class="testimonials-one__icons">
@@ -412,9 +393,7 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div><!-- /.testimonials-one__icons -->
-                            <p>This is due to their excellent service, competitive pricing and customer support. It’s throughly
-                                refresing to get such a personal touch. Duis aute lorem ipsum is simply free text irure dolor in
-                                reprehenderit in esse nulla pariatur.</p>
+                            <p>Game-changers in precision agriculture! Thanks to their tech-savvy solutions, we're maximizing our resources and profits like never before!".</p>
                         </div><!-- /.swiper-slide -->
                     </div><!-- /.swiper-wrapper -->
                 </div><!-- /#testimonials-one__carousel -->
@@ -443,19 +422,19 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="testimonials-one__meta">
-                                <h4>Jessica Brown</h4>
+                                <h4>Jessica Ugwu</h4>
                                 <span>Customer</span>
                             </div><!-- /.testimonials-one__meta -->
                         </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
                             <div class="testimonials-one__meta">
-                                <h4>Caleb Hoffman</h4>
+                                <h4>Caleb Eze</h4>
                                 <span>Customer</span>
                             </div><!-- /.testimonials-one__meta -->
                         </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
                             <div class="testimonials-one__meta">
-                                <h4>Bradley Kim</h4>
+                                <h4>John Chijioke</h4>
                                 <span>Customer</span>
                             </div><!-- /.testimonials-one__meta -->
                         </div><!-- /.swiper-slide -->
@@ -465,104 +444,7 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
             </div><!-- /.container -->
         </section><!-- /.testimonials-one -->
 
-        <section class="gray-boxed-wrapper home-one__boxed d-none">
-            <img src="assets/images/icons/home-1-blog-bg.png" alt="" class="home-one__boxed-bg">
-            <div class="blog-home-two blog-home-one">
-                <div class="container">
-                    <div class="row top-row">
-                        <div class="col-lg-6">
-                            <div class="block-title">
-                                <div class="block-title__image"></div><!-- /.block-title__image -->
-                                <p>From the blog post</p>
-                                <h3>Latest News & Articles
-                                    Directly from Blog</h3>
-                            </div><!-- /.block-title -->
-                        </div><!-- /.col-lg-6 -->
-                        <div class="col-lg-6">
-                            <p class="block-text">Lorem ipsum is simply free text available. Aenean eu leo quam. Pellentesque
-                                ornare
-                                sem lacinia
-                                quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                        </div><!-- /.col-lg-6 -->
-                    </div><!-- /.row -->
-                    <div class="row">
-                        <div class="col-md-12 col-lg-4">
-                            <div class="blog-card">
-                                <div class="blog-card__image">
-                                    <img src="assets/images/blog/blog-grid-1.jpg" alt="Best Way to Do Eco and Agriculture">
-                                    <a href="blog-details.html"></a>
-                                </div><!-- /.blog-card__image -->
-                                <div class="blog-card__content">
-                                    <div class="blog-card__date">18 Nov</div><!-- /.blog-card__date -->
-                                    <div class="blog-card__meta">
-                                        <a href="blog-details.html"><i class="far fa-user-circle"></i> by Admin</a>
-                                        <a href="blog-details.html"><i class="far fa-comments"></i> 2 Comments</a>
-                                    </div><!-- /.blog-card__meta -->
-                                    <h3><a href="blog-details.html">Best Way to Do Eco and Agriculture</a></h3>
-                                    <a href="blog-details.html" class="thm-btn">Read More</a><!-- /.thm-btn -->
-                                </div><!-- /.blog-card__content -->
-                            </div><!-- /.blog-card -->
-                        </div><!-- /.col-md-12 col-lg-4 -->
-                        <div class="col-md-12 col-lg-4">
-                            <div class="blog-card">
-                                <div class="blog-card__image">
-                                    <img src="assets/images/blog/blog-grid-2.jpg" alt="Leverage agile frameworks to provide">
-                                    <a href="blog-details.html"></a>
-                                </div><!-- /.blog-card__image -->
-                                <div class="blog-card__content">
-                                    <div class="blog-card__date">18 Nov</div><!-- /.blog-card__date -->
-                                    <div class="blog-card__meta">
-                                        <a href="blog-details.html"><i class="far fa-user-circle"></i> by Admin</a>
-                                        <a href="blog-details.html"><i class="far fa-comments"></i> 2 Comments</a>
-                                    </div><!-- /.blog-card__meta -->
-                                    <h3><a href="blog-details.html">Leverage agile frameworks to provide</a></h3>
-                                    <a href="blog-details.html" class="thm-btn">Read More</a><!-- /.thm-btn -->
-                                </div><!-- /.blog-card__content -->
-                            </div><!-- /.blog-card -->
-                        </div><!-- /.col-md-12 col-lg-4 -->
-                        <div class="col-md-12 col-lg-4">
-                            <div class="blog-card">
-                                <div class="blog-card__image">
-                                    <img src="assets/images/blog/blog-grid-3.jpg" alt="Organically grow the holistic world view">
-                                    <a href="blog-details.html"></a>
-                                </div><!-- /.blog-card__image -->
-                                <div class="blog-card__content">
-                                    <div class="blog-card__date">18 Nov</div><!-- /.blog-card__date -->
-                                    <div class="blog-card__meta">
-                                        <a href="blog-details.html"><i class="far fa-user-circle"></i> by Admin</a>
-                                        <a href="blog-details.html"><i class="far fa-comments"></i> 2 Comments</a>
-                                    </div><!-- /.blog-card__meta -->
-                                    <h3><a href="blog-details.html">Organically grow the holistic world view</a></h3>
-                                    <a href="blog-details.html" class="thm-btn">Read More</a><!-- /.thm-btn -->
-                                </div><!-- /.blog-card__content -->
-                            </div><!-- /.blog-card -->
-                        </div><!-- /.col-md-12 col-lg-4 -->
-                    </div><!-- /.row -->
-                    <hr />
-                </div><!-- /.container -->
-            </div><!-- /.blog-home-two -->
-            <div class="blog-home__slogan">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-9">
-                            <div class="blog-home__slogan-main">
-                                <i class="agrikon-icon-farm"></i>
-                                <div class="blog-home__slogan-content">
-                                    <h3>We Care About Our Agriculture Growth</h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                        suffered in some form, by injected humour words.</p>
-                                </div><!-- /.blog-home__slogan-content -->
-                            </div><!-- /.blog-home__slogan-main -->
-                        </div><!-- /.col-lg-9 -->
-                        <div class="col-lg-3">
-                            <div class="blog-home__slogan-image">
-                                <img src="assets/images/resources/blog-cta-1.png" alt="">
-                            </div><!-- /.blog-home__slogan-image -->
-                        </div><!-- /.col-lg-3 -->
-                    </div><!-- /.row -->
-                </div><!-- /.container -->
-            </div><!-- /.blog-home__slogan -->
-        </section><!-- /.gray-boxed-wrapper -->
+       
 
         
 
@@ -586,15 +468,12 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
                                     Message</h3>
                             </div><!-- /.block-title -->
                             <div class="contact-two__summery">
-                                <p>Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor
-                                    incididunt
-                                    ut labore et dolore magna aliqua lonm andhn. Aenean tincidunt id mauris id auctor. Donec at
-                                    ligula lacus dignissim mi quis simply neque.</p>
+                                <p>Don't miss out on this incredible opportunity! Reach out to us now, and let's cultivate success together! 🌾🤝.</p>
                             </div><!-- /.contact-two__summery -->
                         </div><!-- /.contact-two__content -->
                     </div><!-- /.col-sm-12 col-md-12 col-lg-12 col-xl-4 -->
                     <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4">
-                        <form action="https://ninetheme.com/themes/html-templates/agrikon/assets/inc/sendemail.php" class="contact-one__form contact-form-validated">
+                        <form action="" class="contact-one__form contact-form-validated">
                             <div class="row">
                                 <div class="col-lg-12">
                                     <input type="text" name="name" placeholder="Full Name">

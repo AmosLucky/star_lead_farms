@@ -21,7 +21,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="about-three__image">
-                            <img src="assets/images/resources/about-3-2.jpg" alt="">
+                            <img src="assets/images/projects/project-2-1.jpg" alt="">
                         </div><!-- /.about-three__image -->
                     </div><!-- /.col-lg-6 -->
                     <div class="col-lg-6">
@@ -29,10 +29,10 @@
                             <div class="block-title">
                                 <div class="block-title__image"></div><!-- /.block-title__image -->
                                 <p>Get to know us</p>
-                                <h3>30 Years Agriculture
+                                <h3>5 Years Agriculture
                                     Experience</h3>
                             </div><!-- /.block-title -->
-                            <ul class="about-three__list list-unstyled">
+                            <!-- <ul class="about-three__list list-unstyled">
                                 <li>
                                     <i class="fa fa-check-circle"></i>
                                     Suspe ndisse suscipit sagittis
@@ -49,15 +49,44 @@
                                     <i class="fa fa-check-circle"></i>
                                     Entum estibulum dignissim
                                 </li>
-                            </ul><!-- /.about-three__list list-unstyled -->
+                            </ul> -->
+                            <!-- /.about-three__list list-unstyled -->
                             <div class="about-three__summery">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed deiusmod tempor incididunt ut
-                                    labosre et dolore magna aliqua. Donec scelerisque dolor id nunc dictum, interdum. </p>
+                                <p>
+                             <h4>   Welcome to Star Lead Wifarms - Cultivating Excellence, Nurturing Growth 🌱🌟</h4>
+
+<p>At Star Lead Wifarms, we are passionate about agriculture and dedicated to empowering farmers worldwide. 
+With years of experience in the industry, we stand as a beacon of innovation and sustainability,
+ helping our clients unlock the full potential of their agricultural endeavors.
+</p>
+<p>
+
+🌾 Our Vision:
+To be a global leader in agricultural solutions, driving positive change and promoting sustainable farming practices that enrich communities and preserve our planet.
+</p>
+<p>
+
+🚀 Our Mission:
+At Star Lead Wifarms, we aim to revolutionize the 
+agricultural landscape by providing cutting-edge technologies,
+ expert advice, and unmatched services. Our goal is to enhance 
+ agricultural productivity, maximize yields, and ensure
+ long-term success for farmers and agribusinesses alike.
+</p>
+<p>
+
+🌿 Our Commitment to Sustainability:
+We firmly believe in responsible stewardship of the land. 
+Our team is dedicated to implementing eco-friendly practices that protect the environment and promote biodiversity.
+ Together, we can build a greener and more sustainable future for generations to come.
+</p>
+                                 </p>
                             </div><!-- /.about-three__summery -->
-                            <div class="about-three__signs">
+                            <!-- <div class="about-three__signs">
                                 <img src="assets/images/resources/about-3-1.png" alt="">
                                 <img src="assets/images/resources/sign-1-1.png" alt="">
-                            </div><!-- /.about-three__signs -->
+                            </div> -->
+                            <!-- /.about-three__signs -->
                         </div><!-- /.about-three__content -->
                     </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->
@@ -74,7 +103,7 @@
                         <div class="service-one__box">
                             <img src="assets/images/services/service-1-1.jpg" alt="">
                             <div class="service-one__box-content">
-                                <h3><a href="service-details.html">Agriculture Leader</a></h3>
+                                <h3><a href="">Agriculture Leader</a></h3>
                             </div><!-- /.service-one__box-content -->
                         </div><!-- /.service-one__box -->
                     </div><!-- /.col-md-12 col-lg-4 -->
@@ -82,7 +111,7 @@
                         <div class="service-one__box">
                             <img src="assets/images/services/service-1-2.jpg" alt="">
                             <div class="service-one__box-content">
-                                <h3><a href="service-details.html">Quality Standards</a></h3>
+                                <h3><a href="">Quality Standards</a></h3>
                             </div><!-- /.service-one__box-content -->
                         </div><!-- /.service-one__box -->
                     </div><!-- /.col-md-12 col-lg-4 -->
@@ -90,7 +119,7 @@
                         <div class="service-one__box">
                             <img src="assets/images/services/service-1-3.jpg" alt="">
                             <div class="service-one__box-content">
-                                <h3><a href="service-details.html">Organic Services</a></h3>
+                                <h3><a href="">Organic Services</a></h3>
                             </div><!-- /.service-one__box-content -->
                         </div><!-- /.service-one__box -->
                     </div><!-- /.col-md-12 col-lg-4 -->

@@ -95,8 +95,7 @@
                                     Better Future</h3>
                             </div><!-- /.block-title -->
                             <div class="feature-one__summery">
-                                <p>There are many variations of passages of lorem ipsum available but the majority have suffered
-                                    alteration in some form by injected humor or random word which don't look even.</p>
+                                <p>Unleash the full potential of your farm with our cutting-edge crop consulting services.</p>
                             </div><!-- /.feature-one__summery -->
                             <ul class="list-unstyled feature-one__check-list">
                                 <li>
@@ -105,7 +104,7 @@
                                 </li>
                                 <li>
                                     <i class="agrikon-icon-tick"></i>
-                                    Get the best and fresh organic products
+                                    Food production to serve the nation
                                 </li>
                             </ul><!-- /.list-unstyled -->
                         </div><!-- /.feature-one__content -->
@@ -124,45 +123,11 @@
             <div class="container">
                 <h3>Agriculture Matters to
                     the Future</h3>
-                <a href="about.html" class="thm-btn">Discover More</a><!-- /.thm-btn -->
+                <a href="register" class="thm-btn">Discover More</a><!-- /.thm-btn -->
             </div><!-- /.container -->
         </section><!-- /.call-to-action__two -->
 
-        <section class="service-one service-one__about">
-            <div class="container">
-                <div class="block-title text-center">
-                    <div class="block-title__image"></div><!-- /.block-title__image -->
-                    <p>Our Services list</p>
-                    <h3>What We’re Doing</h3>
-                </div><!-- /.block-title -->
-                <div class="row">
-                    <div class="col-md-12 col-lg-4">
-                        <div class="service-one__box">
-                            <img src="assets/images/services/service-1-1.jpg" alt="">
-                            <div class="service-one__box-content">
-                                <h3><a href="service-details.html">Agriculture Leader</a></h3>
-                            </div><!-- /.service-one__box-content -->
-                        </div><!-- /.service-one__box -->
-                    </div><!-- /.col-md-12 col-lg-4 -->
-                    <div class="col-md-12 col-lg-4">
-                        <div class="service-one__box">
-                            <img src="assets/images/services/service-1-2.jpg" alt="">
-                            <div class="service-one__box-content">
-                                <h3><a href="service-details.html">Quality Standards</a></h3>
-                            </div><!-- /.service-one__box-content -->
-                        </div><!-- /.service-one__box -->
-                    </div><!-- /.col-md-12 col-lg-4 -->
-                    <div class="col-md-12 col-lg-4">
-                        <div class="service-one__box">
-                            <img src="assets/images/services/service-1-3.jpg" alt="">
-                            <div class="service-one__box-content">
-                                <h3><a href="service-details.html">Organic Services</a></h3>
-                            </div><!-- /.service-one__box-content -->
-                        </div><!-- /.service-one__box -->
-                    </div><!-- /.col-md-12 col-lg-4 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.service-one -->
+    
 
        
 
@@ -181,7 +146,7 @@
                         <div class="call-to-action__three-content">
                             <h3>Providing High Quality
                                 Products</h3>
-                            <a href="about.html" class="thm-btn">Discover More</a><!-- /.thm-btn -->
+                            <a href="register" class="thm-btn">Discover More</a><!-- /.thm-btn -->
                         </div><!-- /.call-to-action__three-content -->
                     </div><!-- /.col-lg-7 -->
                 </div><!-- /.row -->
