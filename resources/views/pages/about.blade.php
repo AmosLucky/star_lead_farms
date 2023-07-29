@@ -144,7 +144,7 @@ Our team is dedicated to implementing eco-friendly practices that protect the en
                         market globally</h3>
                 </div><!-- /.call-to-action__content -->
                 <div class="call-to-action__button">
-                    <a href="services.html" class="thm-btn">Discover More</a><!-- /.thm-btn -->
+                    <a href="register" class="thm-btn">Discover More</a><!-- /.thm-btn -->
                 </div><!-- /.call-to-action__button -->
             </div><!-- /.container -->
         </section><!-- /.call-to-action -->

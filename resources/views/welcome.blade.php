@@ -226,7 +226,7 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
                             <img src="assets/images/resources/m-1.jpeg" alt="">
                             <div class="about-one__count wow fadeInLeft" data-wow-duration="1500ms">
                                 <span>Trusted by</span>
-                                <h4>8900</h4>
+                                <h4>Many</h4>
                             </div><!-- /.about-one__count -->
                         </div><!-- /.about-one__images -->
                     </div><!-- /.col-lg-6 -->
