@@ -1,5 +1,13 @@
 @include('layouts.header')
 
+@php
+$company_name = "Star Lead Wifarms";
+$comapny_email = "support@starleadwifarms";
+$company_phones = "08153732788";
+$company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu"; 
+
+@endphp
+
         <div class="stricky-header stricked-menu main-menu">
             <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
         </div><!-- /.stricky-header -->
@@ -25,12 +33,12 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-7 col-lg-7">
-                                    <span class="tagline">Welcome to Agriculture Farm</span>
-                                    <h2><span>Agriculture</span><br>
-                                        & Eco Farming</h2>
-                                    <p>There are many of passages of lorem Ipsum, but the majori have <br> suffered alteration
-                                        in some form.</p>
-                                    <a href="#" class=" thm-btn">Discover More</a>
+                                    <span class="tagline">Welcome to Agriculture {{$company_name}} Farm</span>
+                                    <h2><span>Harvest the </span><br>
+                                    Future Today!</h2>
+                                    <p>
+                                    Agriculture is the primary source of food production for the world's population.</p>
+                                    <a href="register" class=" thm-btn">Discover More</a>
                                     <!-- /.thm-btn dynamic-radius -->
                                 </div><!-- /.col-lg-7 text-right -->
                             </div><!-- /.row -->
@@ -43,12 +51,11 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-7 col-lg-7">
-                                    <span class="tagline">Welcome to Agriculture Farm</span>
+                                    <span class="tagline">Welcome to Agriculture {{$company_name}} Farm</span>
                                     <h2><span>Agriculture</span><br>
-                                        & Eco Farming</h2>
-                                    <p>There are many of passages of lorem Ipsum, but the majori have <br> suffered alteration
-                                        in some form.</p>
-                                    <a href="#" class=" thm-btn">Discover More</a>
+                                        2.0 Advanced</h2>
+                                    <p>Agriculture is often the backbone of rural communities. It contributes to the development of rural areas by creating jobs.</p>
+                                    <a href="register" class=" thm-btn">Discover More</a>
                                     <!-- /.thm-btn dynamic-radius -->
                                 </div><!-- /.col-lg-7 text-right -->
                             </div><!-- /.row -->
@@ -61,12 +68,11 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-7 col-lg-7">
-                                    <span class="tagline">Welcome to Agriculture Farm</span>
-                                    <h2><span>Agriculture</span><br>
-                                        & Eco Farming</h2>
-                                    <p>There are many of passages of lorem Ipsum, but the majori have <br> suffered alteration
-                                        in some form.</p>
-                                    <a href="#" class=" thm-btn">Discover More</a>
+                                    <span class="tagline">Welcome to {{ $company_name }} Agriculture Farm</span>
+                                    <h2><span>Discover Fresh </span><br>
+                                    products!</h2>
+                                    <p>Feeding the World, One Crop at a Time: Experience our Agricultural Excellence.</p>
+                                    <a href="register" class=" thm-btn">Discover More</a>
                                     <!-- /.thm-btn dynamic-radius -->
                                 </div><!-- /.col-lg-7 text-right -->
                             </div><!-- /.row -->
@@ -79,12 +85,11 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-7 col-lg-7">
-                                    <span class="tagline">Welcome to Agriculture Farm</span>
-                                    <h2><span>Agriculture</span> <br>
-                                        & Eco Farming</h2>
-                                    <p>There are many of passages of lorem Ipsum, but the majori have <br> suffered alteration
-                                        in some form.</p>
-                                    <a href="#" class=" thm-btn">Discover More</a>
+                                <span class="tagline">Welcome to {{ $company_name }} Agriculture Farm</span>
+                                    <h2><span>Fertile Fields, </span> <br>
+                                    Abundant Yields</h2>
+                                    <p>Agriculture plays a significant role in the economy of many countries.</p>
+                                    <a href="register" class=" thm-btn">Discover More</a>
                                     <!-- /.thm-btn dynamic-radius -->
                                 </div><!-- /.col-lg-7 text-right -->
                             </div><!-- /.row -->
@@ -120,10 +125,12 @@
                             </div><!-- /.service-two__card-image -->
                             <div class="service-two__card-content">
                                 <div class="service-two__card-icon">
-                                    <i class="agrikon-icon-tractor"></i>
+                                <i class="agrikon-icon-vegetable"></i>
+                                   
                                 </div><!-- /.service-two__card-icon -->
-                                <h3><a href="service-details.html">Agriculture Products</a></h3>
-                                <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
+                                <h3><a href="service-details.html">Livestock Management</a></h3>
+                               
+                                <p>Professionals assist livestock farmers with animal health management</p>
                             </div><!-- /.service-two__card-content -->
                         </div><!-- /.service-two__card -->
                     </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
@@ -136,9 +143,8 @@
                                 <div class="service-two__card-icon">
                                     <i class="agrikon-icon-organic-food"></i>
                                 </div><!-- /.service-two__card-icon -->
-                                <h3><a href="service-details.html">Oragnic
-                                        Products</a></h3>
-                                <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
+                                <h3><a href="service-details.html">Fresh/Organic Vegetables</a></h3>
+                                <p>We grow and sale organic fruits , vegetables and other products.</p>
                             </div><!-- /.service-two__card-content -->
                         </div><!-- /.service-two__card -->
                     </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
@@ -149,11 +155,10 @@
                             </div><!-- /.service-two__card-image -->
                             <div class="service-two__card-content">
                                 <div class="service-two__card-icon">
-                                    <i class="agrikon-icon-vegetable"></i>
+                                <i class="agrikon-icon-tractor"></i>
                                 </div><!-- /.service-two__card-icon -->
-                                <h3><a href="service-details.html">Fresh
-                                        Vegetables</a></h3>
-                                <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
+                                <h3><a href="service-details.html">Equipment and Machinery</a></h3>
+                                <p>We offer sales, maintenance, and repair services.</p>
                             </div><!-- /.service-two__card-content -->
                         </div><!-- /.service-two__card -->
                     </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
@@ -167,9 +172,8 @@
                                 <div class="service-two__card-icon">
                                     <i class="agrikon-icon-dairy"></i>
                                 </div><!-- /.service-two__card-icon -->
-                                <h3><a href="service-details.html">Dairy
-                                        Products</a></h3>
-                                <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
+                                <h3><a href="service-details.html">Agricultural Research </a></h3>
+                                <p>We conduct studies to develop new crop varieties.</p>
                             </div><!-- /.service-two__card-content -->
                         </div><!-- /.service-two__card -->
                     </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
@@ -178,7 +182,7 @@
         </section><!-- /.service-two -->
 
 
-        <section class="service-one">
+        <section class="service-one d-none">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-lg-4 wow fadeInUp" data-wow-duration="1500ms">
@@ -227,36 +231,36 @@
                         <div class="about-one__content">
                             <div class="block-title text-left">
                                 <div class="block-title__image"></div><!-- /.block-title__image -->
-                                <p>Welcome to agricon</p>
+                                <p>Welcome to {{ $company_name }}</p>
                                 <h3>Better Agriculture for
                                     Better Future</h3>
                             </div><!-- /.block-title -->
                             <div class="about-one__tagline">
-                                <p>We have 30 years of agriculture & eco farming experience globaly</p>
+                                <p>We have 5 years of agriculture & eco farming experience globaly</p>
                             </div><!-- /.about-one__tagline -->
                             <div class="about-one__summery">
-                                <p>There are many variations of passages of lorem ipsum available but the majority have suffered
-                                    alteration in some form by injected humor or random word which don't look even.</p>
+                                <p>At {{ $company_name }}, we believe in the power of agriculture to 
+                                    shape a sustainable and prosperous world.🌿🌽 </p>
                             </div><!-- /.about-one__summery -->
                             <div class="about-one__icon-row">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="about-one__box">
                                             <i class="agrikon-icon-farmer"></i>
-                                            <h4><a href="about.html">Professional
+                                            <h4><a href="">Professional
                                                     Farmers</a></h4>
                                         </div><!-- /.about-one__box -->
                                     </div><!-- /.col-lg-6 -->
                                     <div class="col-lg-6">
                                         <div class="about-one__box">
                                             <i class="agrikon-icon-agriculture"></i>
-                                            <h4><a href="services.html">Organic & Eco
+                                            <h4><a href="">Organic & Eco
                                                     Solutions</a></h4>
                                         </div><!-- /.about-one__box -->
                                     </div><!-- /.col-lg-6 -->
                                 </div><!-- /.row -->
                             </div><!-- /.about-one__icon-row -->
-                            <a href="about.html" class="thm-btn">Discover More</a><!-- /.thm-btn -->
+                            <a href="register" class="thm-btn">Register</a><!-- /.thm-btn -->
                         </div><!-- /.about-one__content -->
                     </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->
@@ -333,15 +337,7 @@
                             </div><!-- /.projects-one__single -->
                         </div><!-- /.swiper-slide -->
                        
-                        <div class="swiper-slide">
-                            <div class="projects-one__single">
-                                <img src="assets/images/projects/project-2-2.jpg" alt="">
-                                <div class="projects-one__content">
-                                    <h3>Harvest Innovation</h3>
-                                    <a href="project-details.html" class="projects-one__button"><i class="agrikon-icon-right-arrow"></i></a><!-- /.projects-one__button -->
-                                </div><!-- /.projects-one__content -->
-                            </div><!-- /.projects-one__single -->
-                        </div><!-- /.swiper-slide -->
+                       
                         <div class="swiper-slide">
                             <div class="projects-one__single">
                                 <img src="assets/images/projects/project-2-4.jpg" alt="">
@@ -469,7 +465,7 @@
             </div><!-- /.container -->
         </section><!-- /.testimonials-one -->
 
-        <section class="gray-boxed-wrapper home-one__boxed">
+        <section class="gray-boxed-wrapper home-one__boxed d-none">
             <img src="assets/images/icons/home-1-blog-bg.png" alt="" class="home-one__boxed-bg">
             <div class="blog-home-two blog-home-one">
                 <div class="container">
