@@ -1,7 +1,7 @@
 <?php
 
 $company_name = "Star Lead Wifarms";
-$comapny_email = "support@starleadwifarms";
+$company_email = "support@starleadwifarms";
 $company_phones = "08153732788";
 $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
 
@@ -62,7 +62,7 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
                         <p>Welcome to {{ $company_name }}</p>
                     </div><!-- /.topbar__left -->
                     <div class="topbar__right">
-                        <a href="#"><i class="agrikon-icon-email"></i>{{ $comapny_email }}</a>
+                        <a href="#"><i class="agrikon-icon-email"></i>{{ $company_email }}</a>
                         <a href="#"><i class="agrikon-icon-clock"></i>Mon - Sat 8:00 - 6:30, Sunday - CLOSED</a>
                     </div><!-- /.topbar__right -->
                 </div><!-- /.container -->

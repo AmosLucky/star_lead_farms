@@ -16,9 +16,15 @@
             </div><!-- /.container -->
         </section><!-- /.page-header -->
 
-        <section class="service-two service-two__service-page">
+        <!-- /.main-slider -->
+        <section class="service-two">
+            <div class="service-two__bottom-curv"></div><!-- /.service-two__bottom-curv -->
             <div class="container">
-
+                <div class="block-title text-center">
+                    <div class="block-title__image"></div><!-- /.block-title__image -->
+                    <p>Our Services list</p>
+                    <h3>What We’re Offering</h3>
+                </div><!-- /.block-title -->
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="service-two__card">
@@ -27,10 +33,12 @@
                             </div><!-- /.service-two__card-image -->
                             <div class="service-two__card-content">
                                 <div class="service-two__card-icon">
-                                    <i class="agrikon-icon-tractor"></i>
+                                <i class="agrikon-icon-vegetable"></i>
+                                   
                                 </div><!-- /.service-two__card-icon -->
-                                <h3><a href="service-details.html">Agriculture Products</a></h3>
-                                <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
+                                <h3><a href="service-details.html">Livestock Management</a></h3>
+                               
+                                <p>Professionals assist livestock farmers with animal health management</p>
                             </div><!-- /.service-two__card-content -->
                         </div><!-- /.service-two__card -->
                     </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
@@ -43,9 +51,8 @@
                                 <div class="service-two__card-icon">
                                     <i class="agrikon-icon-organic-food"></i>
                                 </div><!-- /.service-two__card-icon -->
-                                <h3><a href="service-details.html">Oragnic
-                                        Products</a></h3>
-                                <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
+                                <h3><a href="service-details.html">Fresh/Organic Vegetables</a></h3>
+                                <p>We grow and sale organic fruits , vegetables and other products.</p>
                             </div><!-- /.service-two__card-content -->
                         </div><!-- /.service-two__card -->
                     </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
@@ -56,14 +63,14 @@
                             </div><!-- /.service-two__card-image -->
                             <div class="service-two__card-content">
                                 <div class="service-two__card-icon">
-                                    <i class="agrikon-icon-vegetable"></i>
+                                <i class="agrikon-icon-tractor"></i>
                                 </div><!-- /.service-two__card-icon -->
-                                <h3><a href="service-details.html">Fresh
-                                        Vegetables</a></h3>
-                                <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
+                                <h3><a href="service-details.html">Equipment and Machinery</a></h3>
+                                <p>We offer sales, maintenance, and repair services.</p>
                             </div><!-- /.service-two__card-content -->
                         </div><!-- /.service-two__card -->
                     </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
+                   
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="service-two__card">
                             <div class="service-two__card-image">
@@ -73,9 +80,8 @@
                                 <div class="service-two__card-icon">
                                     <i class="agrikon-icon-dairy"></i>
                                 </div><!-- /.service-two__card-icon -->
-                                <h3><a href="service-details.html">Dairy
-                                        Products</a></h3>
-                                <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
+                                <h3><a href="service-details.html">Agricultural Research </a></h3>
+                                <p>We conduct studies to develop new crop varieties.</p>
                             </div><!-- /.service-two__card-content -->
                         </div><!-- /.service-two__card -->
                     </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->

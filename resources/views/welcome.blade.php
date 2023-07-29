@@ -1,12 +1,14 @@
 @include('layouts.header')
+<?php
 
-@php
 $company_name = "Star Lead Wifarms";
-$comapny_email = "support@starleadwifarms";
-$company_phones = "08153732788";
-$company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu"; 
+$company_email = "support@starleadwifarms";
+$company_phone = "08153732788";
+$company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
 
-@endphp
+?>
+
+
 
         <div class="stricky-header stricked-menu main-menu">
             <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
@@ -33,7 +35,7 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-7 col-lg-7">
-                                    <span class="tagline">Welcome to Agriculture {{$company_name}} Farm</span>
+                                    <span class="tagline">Welcome to Agriculture {{ $company_name }} Farm</span>
                                     <h2><span>Harvest the </span><br>
                                     Future Today!</h2>
                                     <p>
@@ -108,7 +110,8 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
                 </div><!-- /.main-slider__nav -->
 
             </div><!-- /.swiper-container thm-swiper__slider -->
-        </section><!-- /.main-slider -->
+        </section>
+        <!-- /.main-slider -->
         <section class="service-two">
             <div class="service-two__bottom-curv"></div><!-- /.service-two__bottom-curv -->
             <div class="container">

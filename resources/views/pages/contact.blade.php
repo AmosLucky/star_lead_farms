@@ -1,5 +1,13 @@
 @include('layouts.header')
 
+@php
+$company_name = "Star Lead Wifarms";
+$company_email = "support@starleadwifarms";
+$company_phone = "08153732788";
+$company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu"; 
+
+@endphp
+
         <div class="stricky-header stricked-menu main-menu">
             <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
         </div><!-- /.stricky-header -->
@@ -27,9 +35,8 @@
                                 <h3>Leave A Message</h3>
                             </div><!-- /.block-title -->
                             <div class="contact-one__summery">
-                                <p>Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua lonm andhn. Aenean tincidunt id mauris id
-                                    auctor. Donec at ligula lacus dignissim mi quis simply neque.</p>
+                            <p>Don't miss out on this incredible opportunity! Reach out to us now, and let's cultivate success together! 🌾🤝.</p>
+
                             </div><!-- /.contact-one__summery -->
                             <div class="contact-one__social">
                                 <a href="#"><i class="fab fa-facebook-square"></i></a>
@@ -39,7 +46,7 @@
                         </div><!-- /.contact-one__content -->
                     </div><!-- /.col-sm-12 -->
                     <div class="col-sm-12 col-md-12 col-lg-6 col-xl-8">
-                        <form action="https://ninetheme.com/themes/html-templates/agrikon/assets/inc/sendemail.php" class="contact-one__form contact-form-validated">
+                        <form action="" class="contact-one__form contact-form-validated">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <input type="text" name="name" placeholder="Full Name">
@@ -75,22 +82,24 @@
                     <div class="row no-gutters">
                         <div class="col-sm-12 col-md-12 col-lg-4">
                             <div class="contact-infos__single">
-                                <h3>About Company</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit nulla sit amet lectus neque.</p>
+                                <h3>Locatios</h3>
+                                <ul>
+                                    <li>Enugu - New Heaven</li>
+                                </ul>
                             </div><!-- /.contact-infos__single -->
                         </div><!-- /.col-sm-12 col-md-12 col-lg-4 -->
                         <div class="col-sm-12 col-md-12 col-lg-4">
                             <div class="contact-infos__single">
                                 <h3>Visit Company</h3>
-                                <p>66 broklyn golden street line, New York. United States of America.</p>
+                                <p>{{ $company_address}}</p>
                             </div><!-- /.contact-infos__single -->
                         </div><!-- /.col-sm-12 col-md-12 col-lg-4 -->
                         <div class="col-sm-12 col-md-12 col-lg-4">
                             <div class="contact-infos__single">
                                 <h3>Call or Email</h3>
-                                <p><a href="mailto:needhelp@company.com">needhelp@company.com</a> <br>
-                                    <a href="mailto:info@company.com">info@company.com</a><br>
-                                    <a href="tel:666-888-0000">666 888 0000</a>
+                                <p><a href="mailto:{{ $company_email }}">{{ $company_email }}</a> <br>
+                                    <!-- <a href="mailto:info@company.com">info@company.com</a><br> -->
+                                    <a href="tel:{{ $company_phone }}">{{ $company_phone }}</a>
                                 </p>
                             </div><!-- /.contact-infos__single -->
                         </div><!-- /.col-sm-12 col-md-12 col-lg-4 -->
