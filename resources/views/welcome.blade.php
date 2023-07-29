@@ -215,8 +215,8 @@
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="about-one__images">
-                            <img src="assets/images/resources/about-1-1.jpg" alt="">
-                            <img src="assets/images/resources/about-1-2.jpg" alt="">
+                            <img src="assets/images/projects/project-2-1.jpg" alt="">
+                            <img src="assets/images/resources/m-1.jpeg" alt="">
                             <div class="about-one__count wow fadeInLeft" data-wow-duration="1500ms">
                                 <span>Trusted by</span>
                                 <h4>8900</h4>
@@ -295,6 +295,15 @@
             }
         }}'>
                     <div class="swiper-wrapper">
+                    <div class="swiper-slide" >
+                            <div class="projects-one__single">
+                                <img src="assets/images/resources/m-2.jpeg" alt="">
+                                <div class="projects-one__content">
+                                    <h3>Harvest Innovation</h3>
+                                    <a href="project-details.html" class="projects-one__button"><i class="agrikon-icon-right-arrow"></i></a><!-- /.projects-one__button -->
+                                </div><!-- /.projects-one__content -->
+                            </div><!-- /.projects-one__single -->
+                        </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
                             <div class="projects-one__single">
                                 <img src="assets/images/projects/project-2-1.jpg" alt="">
@@ -304,6 +313,7 @@
                                 </div><!-- /.projects-one__content -->
                             </div><!-- /.projects-one__single -->
                         </div><!-- /.swiper-slide -->
+                        
                         <div class="swiper-slide">
                             <div class="projects-one__single">
                                 <img src="assets/images/projects/project-2-2.jpg" alt="">
@@ -322,15 +332,7 @@
                                 </div><!-- /.projects-one__content -->
                             </div><!-- /.projects-one__single -->
                         </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <div class="projects-one__single">
-                                <img src="assets/images/projects/project-2-4.jpg" alt="">
-                                <div class="projects-one__content">
-                                    <h3>Harvest Innovation</h3>
-                                    <a href="project-details.html" class="projects-one__button"><i class="agrikon-icon-right-arrow"></i></a><!-- /.projects-one__button -->
-                                </div><!-- /.projects-one__content -->
-                            </div><!-- /.projects-one__single -->
-                        </div><!-- /.swiper-slide -->
+                       
                         <div class="swiper-slide">
                             <div class="projects-one__single">
                                 <img src="assets/images/projects/project-2-2.jpg" alt="">
@@ -576,7 +578,7 @@
                             <div class="contact-two__image-bubble-1"></div><!-- /.contact-two__image-bubble-1 -->
                             <div class="contact-two__image-bubble-2"></div><!-- /.contact-two__image-bubble-2 -->
                             <div class="contact-two__image-bubble-3"></div><!-- /.contact-two__image-bubble-3 -->
-                            <img src="assets/images/resources/contact-1-1.jpg" class="img-fluid" alt="">
+                            <img src="assets/images/resources/about-one-img-1.jpeg" class="img-fluid" alt="">
                         </div><!-- /.contact-two__image -->
                     </div><!-- /.col-sm-12 col-md-12 col-lg-12 col-xl-5 -->
                     <div class="col-sm-12 col-md-12 col-lg-12 col-xl-3">
