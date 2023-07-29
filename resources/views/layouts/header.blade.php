@@ -70,7 +70,8 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
             <nav class="main-menu">
                 <div class="container">
                     <div class="logo-box">
-                        <a href="index-2.html" aria-label="logo image"><img src="assets/images/logo-dark.png" width="153" alt=""></a>
+                        <a href="home" aria-label="logo image">
+                            <img src="assets/images/logo-dark.png" width="153" alt=""></a>
                         <span class="fa fa-bars mobile-nav__toggler"></span>
                     </div><!-- /.logo-box -->
                     <ul class="main-menu__list">
