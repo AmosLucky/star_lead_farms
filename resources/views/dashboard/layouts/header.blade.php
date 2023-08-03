@@ -46,7 +46,7 @@
                
                 <li class="nav-ite theme-tex">
                     <a href="index" class="nav-lin"> 
-                     <img src="admin/assets/img/logo.png" height="30" class="navbar-log" alt="logo"> </a>
+                     <img src="assets/images/logo-dark.png" height="30" class="navbar-log" alt="logo"> </a>
                 </li>
             </ul>
 
