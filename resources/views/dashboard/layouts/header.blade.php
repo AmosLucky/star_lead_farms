@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
     <title>Dashboard </title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
-    <link href="assets/css/loader.css" rel="stylesheet" type="text/css" />
-    <script src="assets/js/loader.js"></script>
+    <link rel="icon" type="image/x-icon" href="admin/assets/img/favicon.ico"/>
+    <link href="admin/assets/css/loader.css" rel="stylesheet" type="text/css" />
+    <script src="admin/assets/js/loader.js"></script>
 
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
@@ -46,7 +46,7 @@
                
                 <li class="nav-ite theme-tex">
                     <a href="index" class="nav-lin"> 
-                     <img src="../assets/img/logo.png" height="30" class="navbar-log" alt="logo"> </a>
+                     <img src="admin/assets/img/logo.png" height="30" class="navbar-log" alt="logo"> </a>
                 </li>
             </ul>
 
@@ -75,7 +75,7 @@
 
                 <li class="nav-item dropdown user-profile-dropdown">
                     <a href="javascript:void(0);" class="nav-link dropdown-toggle user" id="userProfileDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                        <img src="assets/img/avatar.png" alt="avatar">
+                        <img src="admin/assets/img/avatar.png" alt="avatar">
                     </a>
                     <div class="dropdown-menu position-absolute" aria-labelledby="userProfileDropdown">
                         <div class="">

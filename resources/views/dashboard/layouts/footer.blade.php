@@ -11,7 +11,7 @@
     <!-- END MAIN CONTAINER -->
    
 
-    {{ asset('admin/assets/js/dashboard/dash_2.js') }}
+    <!-- {{ asset('admin/assets/js/dashboard/dash_2.js') }} -->
 
     <!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
     <script src="{{ asset('admin/assets/js/libs/jquery-3.1.1.min.js') }}
