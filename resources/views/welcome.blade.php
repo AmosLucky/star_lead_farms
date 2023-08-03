@@ -1,7 +1,7 @@
 @include('layouts.header')
 <?php
 
-$company_name = "Star Lead Wifarms";
+$company_name = "Star Lead way Initiative Farm";
 $company_email = "support@starleadwifarms";
 $company_phone = "08153732788";
 $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
