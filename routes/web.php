@@ -31,6 +31,13 @@ Route::get('/services', function () {
 Route::get('/contact', function () {
     return view('pages.contact');
 });
+
+
+
 Auth::routes();
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+Route::get('/logout', [App\Http\Controllers\Auth\LoginController::class, 'logout'])->name('logout');
+
