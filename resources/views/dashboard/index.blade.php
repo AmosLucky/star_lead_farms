@@ -204,7 +204,7 @@
                                     ₦
                                 </div>
                                 <div class="">
-                                    <p class="w-value">₦30,000</p>
+                                    <p class="w-value">₦{{number_format(Auth::user()->balance)}}</p>
                                     <h5 class="">Total Balance</h5>
                                 </div>
                             </div>
@@ -227,7 +227,7 @@
 
                                 </div>
                                 <div class="">
-                                    <p class="w-value">₦10,000</p>
+                                    <p class="w-value">₦{{number_format(Auth::user()->refrral_balance)}}</p>
                                     <h5 class="">Referral Bonus</h5>
                                 </div>
                             </div>
@@ -249,7 +249,7 @@
 
                                 </div>
                                 <div class="">
-                                    <p class="w-value">1,900</p>
+                                    <p class="w-value">{{$numRef}}</p>
                                     <h5 class="">Referral</h5>
                                 </div>
                             </div>
@@ -269,8 +269,8 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-codepen"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon><line x1="12" y1="22" x2="12" y2="15.5"></line><polyline points="22 8.5 12 15.5 2 8.5"></polyline><polyline points="2 15.5 12 8.5 22 15.5"></polyline><line x1="12" y1="2" x2="12" y2="8.5"></line></svg>
                                 </div>
                                 <div class="">
-                                    <p class="w-value">30,000</p>
-                                    <h5 class="">Poins</h5>
+                                    <p class="w-value">{{number_format(Auth::user()->refrral_balance)}}</p>
+                                    <h5 class="">PV</h5>
                                 </div>
                             </div>
                         </div>
