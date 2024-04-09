@@ -38,6 +38,9 @@ Auth::routes();
 
 Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard.index');
 
+Route::get('/packages', [App\Http\Controllers\DashboardController::class, 'packages'])->name('dashboard.packages');
+
+
 
 Route::get('/logout', [App\Http\Controllers\Auth\LoginController::class, 'logout'])->name('logout');
 

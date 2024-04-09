@@ -286,6 +286,15 @@
             </div>
         </div>
 
+        <div class="card component-card_2">
+            <img src="assets/img/grid-blog-style-3.jpg" class="card-img-top" alt="widget-card-2">
+            <div class="card-body">
+                <h5 class="card-title">CLI Based</h5>
+                <p class="card-text">Etiam sed augue ac justo tincidunt posuere. Vivamus euismod eros, nec risus malesuada.</p>
+                <a href="#" class="btn btn-primary">Explore More</a>
+            </div>
+        </div>
+
         <!-- <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 layout-spacing">
             <div class="widget widget-card-one">
                 <div class="widget-content">
@@ -316,6 +325,8 @@
             </div>
 
         </div> -->
+
+        
 
         <!-- <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 layout-spacing">
             <div class="widget widget-card-two">
