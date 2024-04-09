@@ -1,5 +1,13 @@
 @include('layouts.header')
 
+<style>
+    .package-image{
+        height:200px;
+
+    }
+
+    </style>
+
         <div class="stricky-header stricked-menu main-menu">
             <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
         </div><!-- /.stricky-header -->
@@ -17,56 +25,60 @@
         </section><!-- /.page-header -->
 
         <!-- /.main-slider -->
-        <section class="service-two">
+             <!-- /.main-slider -->
+             <section class="service-two">
             <div class="service-two__bottom-curv"></div><!-- /.service-two__bottom-curv -->
             <div class="container">
                 <div class="block-title text-center">
                     <div class="block-title__image"></div><!-- /.block-title__image -->
-                    <p>Our Services list</p>
+                    <p>Our Package list</p>
                     <h3>What We’re Offering</h3>
                 </div><!-- /.block-title -->
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="service-two__card">
                             <div class="service-two__card-image">
-                                <img src="assets/images/services/service-2-1.jpg" alt="">
+                                <img src="assets/images/new/provision.jpeg" alt="" class="package-image">
                             </div><!-- /.service-two__card-image -->
                             <div class="service-two__card-content">
                                 <div class="service-two__card-icon">
                                 <i class="agrikon-icon-vegetable"></i>
                                    
                                 </div><!-- /.service-two__card-icon -->
-                                <h3><a href="service-details.html">Livestock Management</a></h3>
+                                <h6><a href="services">MINI PACKAGE</a></h6>
+                                <h3><a href="services">₦25,000 - 15PV</a></h3>
                                
-                                <p>Professionals assist livestock farmers with animal health management</p>
+                                <!-- <p>Professionals assist livestock farmers with animal health management</p> -->
                             </div><!-- /.service-two__card-content -->
                         </div><!-- /.service-two__card -->
                     </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="service-two__card">
                             <div class="service-two__card-image">
-                                <img src="assets/images/services/service-2-2.jpg" alt="">
+                                <img src="assets/images/new/rice2.jpeg" alt="" class="package-image">
                             </div><!-- /.service-two__card-image -->
                             <div class="service-two__card-content">
                                 <div class="service-two__card-icon">
                                     <i class="agrikon-icon-organic-food"></i>
                                 </div><!-- /.service-two__card-icon -->
-                                <h3><a href="service-details.html">Fresh/Organic Vegetables</a></h3>
-                                <p>We grow and sale organic fruits , vegetables and other products.</p>
+                                <h6><a href="services">ROYAL PACKAGE</a></h6>
+                                <h3><a href="services">₦40,000 - 28PV</a></h3>
+                                <!-- <p>We grow and sale organic fruits , vegetables and other products.</p> -->
                             </div><!-- /.service-two__card-content -->
                         </div><!-- /.service-two__card -->
                     </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="service-two__card">
                             <div class="service-two__card-image">
-                                <img src="assets/images/services/service-2-3.jpg" alt="">
+                                <img src="assets/images/new/rice_oil.jpeg" alt="" class="package-image">
                             </div><!-- /.service-two__card-image -->
                             <div class="service-two__card-content">
                                 <div class="service-two__card-icon">
                                 <i class="agrikon-icon-tractor"></i>
                                 </div><!-- /.service-two__card-icon -->
-                                <h3><a href="service-details.html">Equipment and Machinery</a></h3>
-                                <p>We offer sales, maintenance, and repair services.</p>
+                                <h6><a href="services">SILVER PACKAGE</a></h6>
+                                <h3><a href="services">₦75,000 - 50PV</a></h3>
+                                <!-- <p>We offer sales, maintenance, and repair services.</p> -->
                             </div><!-- /.service-two__card-content -->
                         </div><!-- /.service-two__card -->
                     </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
@@ -74,14 +86,30 @@
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="service-two__card">
                             <div class="service-two__card-image">
-                                <img src="assets/images/services/service-2-4.jpg" alt="">
+                                <img src="assets/images/new/semo.jpeg" alt="" class="package-image">
                             </div><!-- /.service-two__card-image -->
                             <div class="service-two__card-content">
                                 <div class="service-two__card-icon">
                                     <i class="agrikon-icon-dairy"></i>
                                 </div><!-- /.service-two__card-icon -->
-                                <h3><a href="service-details.html">Agricultural Research </a></h3>
-                                <p>We conduct studies to develop new crop varieties.</p>
+                                <h6><a href="services">BRONZE PACKAGE</a></h6>
+                                <h3><a href="services">₦195,000 - 110PV</a></h3>
+                                <!-- <p>We conduct studies to develop new crop varieties.</p> -->
+                            </div><!-- /.service-two__card-content -->
+                        </div><!-- /.service-two__card -->
+                    </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="service-two__card">
+                            <div class="service-two__card-image">
+                                <img src="assets/images/new/creyfish.jpeg" alt="" class="package-image" >
+                            </div><!-- /.service-two__card-image -->
+                            <div class="service-two__card-content">
+                                <div class="service-two__card-icon">
+                                    <i class="agrikon-icon-dairy"></i>
+                                </div><!-- /.service-two__card-icon -->
+                                <h6><a href="services">GOLDEN PACKAGE</a></h6>
+                                <h3><a href="services">₦315,000 - 177PV</a></h3>
+                                <!-- <p>We conduct studies to develop new crop varieties.</p> -->
                             </div><!-- /.service-two__card-content -->
                         </div><!-- /.service-two__card -->
                     </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
@@ -117,7 +145,7 @@
                     </div><!-- /.col-lg-6 -->
                     <div class="col-lg-6">
                         <div class="feature-one__image">
-                            <img src="assets/images/resources/feature-1-1.jpg" alt="">
+                            <img src="assets/images/new/packages.jpeg" alt="">
                         </div><!-- /.feature-one__image -->
                     </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->

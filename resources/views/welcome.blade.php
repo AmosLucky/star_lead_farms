@@ -8,6 +8,14 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
 
 ?>
 
+<style>
+    .package-image{
+        height:200px;
+
+    }
+
+    </style>
+
 
 
         <div class="stricky-header stricked-menu main-menu">
@@ -29,7 +37,7 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
     }'>
                 <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                        <div class="image-layer" style="background-image: url(assets/images/main-slider/main-slider-2-3.jpeg);">
+                        <div class="image-layer" style="background-image: url(assets/images/new/provision.jpeg);">
                         </div>
                         <!-- /.image-layer -->
                         <div class="container">
@@ -81,7 +89,7 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
                         </div><!-- /.container -->
                     </div><!-- /.swiper-slide -->
                     <div class="swiper-slide">
-                        <div class="image-layer" style="background-image: url(assets/images/main-slider/main-slider-1-1.jpg);">
+                        <div class="image-layer" style="background-image: url(assets/images/new/packages.jpeg);">
                         </div>
                         <!-- /.image-layer -->
                         <div class="container">
@@ -117,51 +125,54 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
             <div class="container">
                 <div class="block-title text-center">
                     <div class="block-title__image"></div><!-- /.block-title__image -->
-                    <p>Our Services list</p>
+                    <p>Our Package list</p>
                     <h3>What We’re Offering</h3>
                 </div><!-- /.block-title -->
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="service-two__card">
                             <div class="service-two__card-image">
-                                <img src="assets/images/services/service-2-1.jpg" alt="">
+                                <img src="assets/images/new/provision.jpeg" alt="" class="package-image">
                             </div><!-- /.service-two__card-image -->
                             <div class="service-two__card-content">
                                 <div class="service-two__card-icon">
                                 <i class="agrikon-icon-vegetable"></i>
                                    
                                 </div><!-- /.service-two__card-icon -->
-                                <h3><a href="service-details.html">Livestock Management</a></h3>
+                                <h6><a href="services">MINI PACKAGE</a></h6>
+                                <h3><a href="services">₦25,000 - 15PV</a></h3>
                                
-                                <p>Professionals assist livestock farmers with animal health management</p>
+                                <!-- <p>Professionals assist livestock farmers with animal health management</p> -->
                             </div><!-- /.service-two__card-content -->
                         </div><!-- /.service-two__card -->
                     </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="service-two__card">
                             <div class="service-two__card-image">
-                                <img src="assets/images/services/service-2-2.jpg" alt="">
+                                <img src="assets/images/new/rice2.jpeg" alt="" class="package-image">
                             </div><!-- /.service-two__card-image -->
                             <div class="service-two__card-content">
                                 <div class="service-two__card-icon">
                                     <i class="agrikon-icon-organic-food"></i>
                                 </div><!-- /.service-two__card-icon -->
-                                <h3><a href="service-details.html">Fresh/Organic Vegetables</a></h3>
-                                <p>We grow and sale organic fruits , vegetables and other products.</p>
+                                <h6><a href="services">ROYAL PACKAGE</a></h6>
+                                <h3><a href="services">₦40,000 - 28PV</a></h3>
+                                <!-- <p>We grow and sale organic fruits , vegetables and other products.</p> -->
                             </div><!-- /.service-two__card-content -->
                         </div><!-- /.service-two__card -->
                     </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="service-two__card">
                             <div class="service-two__card-image">
-                                <img src="assets/images/services/service-2-3.jpg" alt="">
+                                <img src="assets/images/new/rice_oil.jpeg" alt="" class="package-image">
                             </div><!-- /.service-two__card-image -->
                             <div class="service-two__card-content">
                                 <div class="service-two__card-icon">
                                 <i class="agrikon-icon-tractor"></i>
                                 </div><!-- /.service-two__card-icon -->
-                                <h3><a href="service-details.html">Equipment and Machinery</a></h3>
-                                <p>We offer sales, maintenance, and repair services.</p>
+                                <h6><a href="services">SILVER PACKAGE</a></h6>
+                                <h3><a href="services">₦75,000 - 50PV</a></h3>
+                                <!-- <p>We offer sales, maintenance, and repair services.</p> -->
                             </div><!-- /.service-two__card-content -->
                         </div><!-- /.service-two__card -->
                     </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
@@ -169,14 +180,30 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="service-two__card">
                             <div class="service-two__card-image">
-                                <img src="assets/images/services/service-2-4.jpg" alt="">
+                                <img src="assets/images/new/semo.jpeg" alt="" class="package-image">
                             </div><!-- /.service-two__card-image -->
                             <div class="service-two__card-content">
                                 <div class="service-two__card-icon">
                                     <i class="agrikon-icon-dairy"></i>
                                 </div><!-- /.service-two__card-icon -->
-                                <h3><a href="service-details.html">Agricultural Research </a></h3>
-                                <p>We conduct studies to develop new crop varieties.</p>
+                                <h6><a href="services">BRONZE PACKAGE</a></h6>
+                                <h3><a href="services">₦195,000 - 110PV</a></h3>
+                                <!-- <p>We conduct studies to develop new crop varieties.</p> -->
+                            </div><!-- /.service-two__card-content -->
+                        </div><!-- /.service-two__card -->
+                    </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="service-two__card">
+                            <div class="service-two__card-image">
+                                <img src="assets/images/new/creyfish.jpeg" alt="" class="package-image" >
+                            </div><!-- /.service-two__card-image -->
+                            <div class="service-two__card-content">
+                                <div class="service-two__card-icon">
+                                    <i class="agrikon-icon-dairy"></i>
+                                </div><!-- /.service-two__card-icon -->
+                                <h6><a href="services">GOLDEN PACKAGE</a></h6>
+                                <h3><a href="services">₦315,000 - 177PV</a></h3>
+                                <!-- <p>We conduct studies to develop new crop varieties.</p> -->
                             </div><!-- /.service-two__card-content -->
                         </div><!-- /.service-two__card -->
                     </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
@@ -222,7 +249,7 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="about-one__images">
-                            <img src="assets/images/projects/project-2-1.jpg" alt="">
+                            <img src="assets/images/new/win_car.jpeg" alt="" style="height:500px">
                             <img src="assets/images/resources/m-1.jpeg" alt="">
                             <div class="about-one__count wow fadeInLeft" data-wow-duration="1500ms">
                                 <span>Trusted by</span>
@@ -272,7 +299,7 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
 
        
 
-        <div class="projects-one project-one__home-one">
+        <div class="projects-one project-one__home-one d-none">
             <div class="container">
                 <div class="block-title text-center">
                     <div class="block-title__image"></div><!-- /.block-title__image -->
@@ -347,14 +374,14 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
                 <div class="row">
                     <div class="col-lg-5 wow fadeInLeft" data-wow-duration="1500ms">
                         <div class="call-to-action__three-image">
-                            <img src="assets/images/resources/cta-3-1.jpg" alt="">
+                            <img src="assets/images/new/packages.jpeg" alt="">
                             <img src="assets/images/resources/cta-3-2.jpg" alt="">
                         </div><!-- /.call-to-action__three-image -->
                     </div><!-- /.col-lg-5 -->
                     <div class="col-lg-7">
                         <div class="call-to-action__three-content">
-                            <h3>Providing High Quality
-                                Products</h3>
+                            <!-- <h3>Providing High Quality
+                                Products</h3> -->
                             <a href="register" class="thm-btn">Discover More</a><!-- /.thm-btn -->
                         </div><!-- /.call-to-action__three-content -->
                     </div><!-- /.col-lg-7 -->
@@ -401,7 +428,7 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
                     </div><!-- /.swiper-wrapper -->
                 </div><!-- /#testimonials-one__carousel -->
 
-                <div id="testimonials-one__thumb" class="swiper-container">
+                <div id="testimonials-one__thumb" class="swiper-container d-none">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="testimonials-one__image">
