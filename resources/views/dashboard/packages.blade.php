@@ -8,6 +8,7 @@
 
 
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+        <h3 class="my-3">Select a package o Get Started</h3>
             <div class="row">
 
 
@@ -29,7 +30,7 @@
                             <li class="card-text my-2">{{$benefit}}</li>
                             @endforeach
                             <br>
-                            <a href="#" class="btn btn-primary">Choose Package</a>
+                            <a href="payment/{{$package->id}}" class="btn btn-primary">Choose Package</a>
                         </div>
                     </div>
                 </div>

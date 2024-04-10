@@ -1,5 +1,25 @@
 @include('dashboard.layouts.header')
 
+
+
+                                        @if(Auth::user()->paid == 0)
+
+                                        <script>
+                                            $(document).ready(function(){
+                                                $('#paymentModal').modal('show');
+                                            });
+                                        </script>
+
+                                        <!-- //@elseif(Auth::user()->paid == 0)
+
+                                        <script>
+                                            $(document).ready(function(){
+                                                $('#updateBankModal').modal('show');
+                                            });
+                                        </script> -->
+
+                                        @endif
+
 <div class="layout-px-spacing">
 
     <div class="row layout-top-spacing">
@@ -287,11 +307,14 @@
         </div>
 
         <div class="card component-card_2">
-            <img src="assets/img/grid-blog-style-3.jpg" class="card-img-top" alt="widget-card-2">
+           
             <div class="card-body">
-                <h5 class="card-title">CLI Based</h5>
-                <p class="card-text">Etiam sed augue ac justo tincidunt posuere. Vivamus euismod eros, nec risus malesuada.</p>
-                <a href="#" class="btn btn-primary">Explore More</a>
+                <h5 class="card-title">Eat and Earn</h5>
+                <p class="card-text">
+                    Refer your family and friends to start enjoying our referral bonuses (N3,000 - N30,000).</p>
+                    <a>https://starleadwifarms.com/register?ref={{Auth::user()->uid}}</a>
+                    <br>
+                <a href="#" class="btn btn-primary">Copy your referral link</a>
             </div>
         </div>
 
@@ -445,6 +468,49 @@
 
     </div>
 
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="paymentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <svg> ... </svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="modal-text">Mauris mi tellus, pharetra vel mattis sed, tempus ultrices eros. Phasellus egestas sit amet velit sed luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti. Vivamus ultrices sed urna ac pulvinar. Ut sit amet ullamcorper mi. </p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal"><i class="flaticon-cancel-12"></i> Discard</button>
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="updateBankModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <svg> ... </svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="modal-text">Mauris mi tellus, pharetra vel mattis sed, tempus ultrices eros. Phasellus egestas sit amet velit sed luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti. Vivamus ultrices sed urna ac pulvinar. Ut sit amet ullamcorper mi. </p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal"><i class="flaticon-cancel-12"></i> Discard</button>
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 @include('dashboard.layouts.footer')

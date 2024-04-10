@@ -39,6 +39,11 @@ Auth::routes();
 Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard.index');
 
 Route::get('/packages', [App\Http\Controllers\DashboardController::class, 'packages'])->name('dashboard.packages');
+Route::get('/payment/{id}', [App\Http\Controllers\DashboardController::class, 'payment'])->name('dashboard.payment');
+
+Route::post('/success_payment', [App\Http\Controllers\UserController::class, 'successPayment'])->name('success_payment');
+
+
 
 
 

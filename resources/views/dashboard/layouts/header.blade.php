@@ -46,7 +46,7 @@
                
                 <li class="nav-ite theme-tex">
                     <a href="index" class="nav-lin"> 
-                     <img src="assets/images/logo-dark.png" height="30" class="navbar-log" alt="logo"> </a>
+                     <img src="{{asset('assets/images/logo-dark.png')}}" height="30" class="navbar-log" alt="logo"> </a>
                 </li>
             </ul>
 
@@ -75,7 +75,7 @@
 
                 <li class="nav-item dropdown user-profile-dropdown">
                     <a href="javascript:void(0);" class="nav-link dropdown-toggle user" id="userProfileDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                        <img src="admin/assets/img/avatar.png" alt="avatar">
+                        <img src="{{asset('admin/assets/img/avatar.png')}}" alt="avatar">
                     </a>
                     <div class="dropdown-menu position-absolute" aria-labelledby="userProfileDropdown">
                         <div class="">
@@ -134,7 +134,7 @@
 
                 <ul class="list-unstyled menu-categories" id="accordionExample">
                     <li class="menu">
-                        <a href="index"  aria-expanded="true" class="dropdown-toggle">
+                        <a href="/dashboard"  aria-expanded="true" class="dropdown-toggle">
                             <div class="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
                               
@@ -146,7 +146,7 @@
                     </li>
 
                     <li class="menu">
-                        <a href="packages"  aria-expanded="false" class="dropdown-toggle">
+                        <a href="/packages"  aria-expanded="false" class="dropdown-toggle">
                             <div class="">
                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
                               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 

@@ -43,4 +43,19 @@ class DashboardController extends Controller
         
         return view('dashboard.packages',compact("packages"));
     }
+
+
+    public function payment(Request $request)
+    {
+        $package = Packages::find($request->id);
+        if($package == null){
+            return redirect()->back();
+        }
+
+        //print_r($packages);
+       
+        
+        
+        return view('dashboard.payment',compact("package"));
+    }
 }
