@@ -138,6 +138,36 @@ function payWithPaystack() {
 
 
 
+      
+      var packageId = {!! json_encode($package->id) !!};
+    
+
+    var formdata = new FormData();
+formdata.append("package_id",packageId);
+formdata.append("_token",'{{csrf_token()}}');
+
+  $.ajaxSetup({
+headers: {
+  'X-CSRF-TOKEN': "{{ csrf_token() }}"
+}
+});
+
+    $.ajax({
+          url: '/success_payment',
+          type: 'post',
+          data: formdata,
+          contentType: false,
+          processData: false,
+          success: function(response){
+              alert(response['status']);
+              //console.log(JSON.stringify(response));
+              //alert("success");
+             
+          },
+      });
+
+
+
 
 
     },

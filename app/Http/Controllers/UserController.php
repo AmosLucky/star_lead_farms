@@ -13,6 +13,15 @@ class UserController extends Controller
 {
     //
 
+    public function index()
+    {
+        //
+        $user = User::find(Auth::user()->id);
+
+        return view('dashboard.account',compact("user"));
+    }
+
+
     public function successPayment(Request $request){
 
        
@@ -118,5 +127,14 @@ class UserController extends Controller
 
       }
 
+    }
+
+    public function updateprofile(Request $request){
+
+    }
+
+
+    public function updatepassword(Request $request){
+      
     }
 }

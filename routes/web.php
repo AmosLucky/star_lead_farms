@@ -43,6 +43,17 @@ Route::get('/payment/{id}', [App\Http\Controllers\DashboardController::class, 'p
 
 Route::post('/success_payment', [App\Http\Controllers\UserController::class, 'successPayment'])->name('success_payment');
 
+Route::get('/transactions', [App\Http\Controllers\TransactionsController::class, 'index'])->name('dashboard.transactions');
+
+Route::get('/account', [App\Http\Controllers\UserController::class, 'index'])->name('dashboard.index');
+
+Route::post('/updateprofile', [App\Http\Controllers\UserController::class, 'updateprofile'])->name('dashboard.updateprofile');
+Route::post('/updatepassword', [App\Http\Controllers\UserController::class, 'updatepassword'])->name('dashboard.updatepassword');
+
+
+
+
+
 
 
 

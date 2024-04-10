@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Transactions;
 use Illuminate\Http\Request;
 
+use Auth;
+
 class TransactionsController extends Controller
 {
     /**
@@ -13,6 +15,9 @@ class TransactionsController extends Controller
     public function index()
     {
         //
+        $transactions = Transactions::where("user_id",Auth::user()->id)->get();
+
+        return view('dashboard.transactions',compact("transactions"));
     }
 
     /**
