@@ -137,4 +137,10 @@ class UserController extends Controller
     public function updatepassword(Request $request){
       
     }
+
+    public function referral(Request $request){
+
+      return view('dashboard.referral');
+
+    }
 }

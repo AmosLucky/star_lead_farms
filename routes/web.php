@@ -50,6 +50,9 @@ Route::get('/account', [App\Http\Controllers\UserController::class, 'index'])->n
 Route::post('/updateprofile', [App\Http\Controllers\UserController::class, 'updateprofile'])->name('dashboard.updateprofile');
 Route::post('/updatepassword', [App\Http\Controllers\UserController::class, 'updatepassword'])->name('dashboard.updatepassword');
 
+Route::get('/referral', [App\Http\Controllers\UserController::class, 'referral'])->name('dashboard.referral');
+
+
 
 
 
