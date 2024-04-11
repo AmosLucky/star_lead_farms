@@ -50,7 +50,7 @@
                                                 <td>{{$user->email}}</td>
 												<td>N{{number_format($user->balance)}}</td>
                                                 <td>N{{number_format($user->referral_balance)}}</td>
-                                                <td>N{{$user->points}}</td>
+                                                <td>{{$user->points}}</td>
 												
 												<td >{{strtolower($user->created_at)}}</td>
 												

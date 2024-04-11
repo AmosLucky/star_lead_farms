@@ -183,7 +183,7 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
                                
 
-                                <span>Users</span>
+                                <span>Members</span>
                             </div>
                            
                         </a>
@@ -197,6 +197,19 @@
                                
 
                                 <span>Transactions</span>
+                            </div>
+                           
+                        </a>
+                       
+                    </li>
+
+                    <li class="menu">
+                        <a href="/admin/addmember"  aria-expanded="false" class="dropdown-toggle">
+                            <div class="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-ccw"><polyline points="1 4 1 10 7 10"></polyline><polyline points="23 20 23 14 17 14"></polyline><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path></svg>
+                               
+
+                                <span>Add member</span>
                             </div>
                            
                         </a>

@@ -129,84 +129,51 @@ $company_address = "115 upper chime avenu by ugbo okonkwo, New Heaven Enugu";
                     <h3>What We’re Offering</h3>
                 </div><!-- /.block-title -->
                 <div class="row">
+                    @php
+
+                    $sn = 0;
+
+                    $images = array("provision.jpeg","rice2.jpeg","rice_oil.jpeg","semo.jpeg","creyfish.jpeg");
+
+                    @endphp
+                    @foreach($packages as $package)
+
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="service-two__card">
                             <div class="service-two__card-image">
-                                <img src="assets/images/new/provision.jpeg" alt="" class="package-image">
+                                <img src="assets/images/new/{{$images[$sn++]}}" alt="" class="package-image">
                             </div><!-- /.service-two__card-image -->
                             <div class="service-two__card-content">
                                 <div class="service-two__card-icon">
                                 <i class="agrikon-icon-vegetable"></i>
                                    
                                 </div><!-- /.service-two__card-icon -->
-                                <h6><a href="services">MINI PACKAGE</a></h6>
-                                <h3><a href="services">₦25,000 - 15PV</a></h3>
+                                <h6><a href="services"> {{$package->name}}</a></h6>
+                                <h3><a href="services">N{{number_format($package->price)}} - {{number_format($package->pv)}}PV</a></h3>
+                                <hr>
+                            <b><small>Refferal Bonus: </small>N{{number_format($package->referral_bonus)}}</b>
+                            @foreach(explode("|",$package->benefits) as $benefit)
+
+                           
+                            
+                            <li><small>{{$benefit}}</small></li>
+                            @endforeach
+                            <br>
+
+                            <a href="/packages" class="btn btn-primary">choose Package</a><!-- /.thm-btn -->
                                
                                 <!-- <p>Professionals assist livestock farmers with animal health management</p> -->
                             </div><!-- /.service-two__card-content -->
                         </div><!-- /.service-two__card -->
                     </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="service-two__card">
-                            <div class="service-two__card-image">
-                                <img src="assets/images/new/rice2.jpeg" alt="" class="package-image">
-                            </div><!-- /.service-two__card-image -->
-                            <div class="service-two__card-content">
-                                <div class="service-two__card-icon">
-                                    <i class="agrikon-icon-organic-food"></i>
-                                </div><!-- /.service-two__card-icon -->
-                                <h6><a href="services">ROYAL PACKAGE</a></h6>
-                                <h3><a href="services">₦40,000 - 28PV</a></h3>
-                                <!-- <p>We grow and sale organic fruits , vegetables and other products.</p> -->
-                            </div><!-- /.service-two__card-content -->
-                        </div><!-- /.service-two__card -->
-                    </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="service-two__card">
-                            <div class="service-two__card-image">
-                                <img src="assets/images/new/rice_oil.jpeg" alt="" class="package-image">
-                            </div><!-- /.service-two__card-image -->
-                            <div class="service-two__card-content">
-                                <div class="service-two__card-icon">
-                                <i class="agrikon-icon-tractor"></i>
-                                </div><!-- /.service-two__card-icon -->
-                                <h6><a href="services">SILVER PACKAGE</a></h6>
-                                <h3><a href="services">₦75,000 - 50PV</a></h3>
-                                <!-- <p>We offer sales, maintenance, and repair services.</p> -->
-                            </div><!-- /.service-two__card-content -->
-                        </div><!-- /.service-two__card -->
-                    </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
+
+
+                    @endforeach
                    
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="service-two__card">
-                            <div class="service-two__card-image">
-                                <img src="assets/images/new/semo.jpeg" alt="" class="package-image">
-                            </div><!-- /.service-two__card-image -->
-                            <div class="service-two__card-content">
-                                <div class="service-two__card-icon">
-                                    <i class="agrikon-icon-dairy"></i>
-                                </div><!-- /.service-two__card-icon -->
-                                <h6><a href="services">BRONZE PACKAGE</a></h6>
-                                <h3><a href="services">₦195,000 - 110PV</a></h3>
-                                <!-- <p>We conduct studies to develop new crop varieties.</p> -->
-                            </div><!-- /.service-two__card-content -->
-                        </div><!-- /.service-two__card -->
-                    </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="service-two__card">
-                            <div class="service-two__card-image">
-                                <img src="assets/images/new/creyfish.jpeg" alt="" class="package-image" >
-                            </div><!-- /.service-two__card-image -->
-                            <div class="service-two__card-content">
-                                <div class="service-two__card-icon">
-                                    <i class="agrikon-icon-dairy"></i>
-                                </div><!-- /.service-two__card-icon -->
-                                <h6><a href="services">GOLDEN PACKAGE</a></h6>
-                                <h3><a href="services">₦315,000 - 177PV</a></h3>
-                                <!-- <p>We conduct studies to develop new crop varieties.</p> -->
-                            </div><!-- /.service-two__card-content -->
-                        </div><!-- /.service-two__card -->
-                    </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
+                  
+                   
+                    
+                    
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </section><!-- /.service-two -->

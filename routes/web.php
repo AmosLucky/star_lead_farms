@@ -13,12 +13,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/home', function () {
-    return view('welcome');
-});
+Route::get('/', [App\Http\Controllers\Controller::class, 'index'])->name('home.index');
+
+Route::get('/index', [App\Http\Controllers\Controller::class, 'index'])->name('home.index');
+
+Route::get('/home', [App\Http\Controllers\Controller::class, 'index'])->name('home.index');
+
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+// Route::get('/index', function () {
+//     return view('welcome');
+// });
+// Route::get('/home', function () {
+//     return view('welcome');
+// });
 Route::get('/about', function () {
     return view('pages.about');
 });
@@ -65,6 +75,12 @@ Route::get('/admin/referrallink', [App\Http\Controllers\UserController::class, '
 
 Route::get('/admin/transactions', [App\Http\Controllers\AdminController::class, 'transactions'])->name('admin.transactions');
 Route::get('/admin/users', [App\Http\Controllers\AdminController::class, 'users'])->name('admin.users');
+
+Route::get('/admin/addmember', [App\Http\Controllers\AdminController::class, 'addmember'])->name('admin.addmember');
+
+Route::post('/admin/createUser', [App\Http\Controllers\AdminController::class, 'createUser'])->name('admin.createUser');
+
+
 
 
 

@@ -91,6 +91,25 @@
                      
                     </tr>
 
+                    <tr>
+                      <th>Bank Name</th>
+                      <td>
+                        <input type="text" name="bank" id="ename" class="form-control" value="{{$user->bank}}" >
+                      </td>
+                      
+                     
+                    </tr>
+
+
+                     <tr>
+                      <th>Phone</th>
+                      <td>
+                        <input type="text" name="account_number" id="phone" class="form-control" value="{{$user->account_number}}" required>
+                      </td>
+                      
+                     
+                    </tr>
+
                    
 
                       </tbody>

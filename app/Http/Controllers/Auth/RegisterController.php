@@ -78,6 +78,8 @@ class RegisterController extends Controller
         
         ),
         ]);
+
+        
         $user->uid = ("slf".$user->id);
         $user->update();
 

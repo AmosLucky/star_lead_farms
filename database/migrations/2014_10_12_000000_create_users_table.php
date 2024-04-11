@@ -31,6 +31,8 @@ return new class extends Migration
             $table->string('uid')->default("");
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('bank')->default('');;
+            $table->string('account_number')->default('');;
             $table->rememberToken();
             $table->timestamps();
         });

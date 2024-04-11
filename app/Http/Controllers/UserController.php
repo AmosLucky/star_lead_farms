@@ -134,6 +134,8 @@ class UserController extends Controller
 
       $user->name = $request->name;
       $user->phone_number = $request->phone_number;
+      $user->bank = $request->bank;
+      $user->account_number = $request->account_number;
 
       $user ->update();
 
