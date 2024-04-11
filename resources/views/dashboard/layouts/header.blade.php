@@ -46,7 +46,7 @@
             <ul class="navbar-item theme-brand flex-row  text-center">
                
                 <li class="nav-ite theme-tex">
-                    <a href="index" class="nav-lin"> 
+                    <a href="/dashboard" class="nav-lin"> 
                      <img src="{{asset('assets/images/logo-dark.png')}}" height="30" class="navbar-log" alt="logo"> </a>
                 </li>
             </ul>
@@ -81,7 +81,7 @@
                     <div class="dropdown-menu position-absolute" aria-labelledby="userProfileDropdown">
                         <div class="">
                             <div class="dropdown-item">
-                                <a class="" href="account"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> Profile</a>
+                                <a class="" href="/account"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> Profile</a>
                             </div>
                             <div class="dropdown-item">
                            
@@ -177,7 +177,7 @@
                     </li> -->
 
                     <li class="menu">
-                        <a href="referral"  aria-expanded="false" class="dropdown-toggle">
+                        <a href="/referral"  aria-expanded="false" class="dropdown-toggle">
                             <div class="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
                                
@@ -190,7 +190,7 @@
                     </li>
 
                     <li class="menu">
-                        <a href="transactions"  aria-expanded="false" class="dropdown-toggle">
+                        <a href="/transactions"  aria-expanded="false" class="dropdown-toggle">
                             <div class="">
                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-ccw"><polyline points="1 4 1 10 7 10"></polyline><polyline points="23 20 23 14 17 14"></polyline><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path></svg>
                                
@@ -214,16 +214,16 @@
                         </a>
                         <ul class="collapse submenu list-unstyled" id="users" data-parent="#accordionExample">
                             <li>
-                                <a href="referrallink"> Referral link </a>
+                                <a href="/referrallink"> Referral link </a>
                             </li>
                             <li>
-                                <a href="account"> Account Settings </a>
+                                <a href="/account"> Account Settings </a>
                             </li>
                         </ul>
                     </li>
 
                      <li class="menu">
-                        <a href="support"  aria-expanded="false" class="dropdown-toggle">
+                        <a href="/support"  aria-expanded="false" class="dropdown-toggle">
                             <div class="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
 

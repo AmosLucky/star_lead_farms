@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
-use App\Models\packages;
+use App\Models\Packages;
 
 
 class Controller extends BaseController
@@ -14,7 +14,7 @@ class Controller extends BaseController
     public function index()
     {
 
-        $packages = packages::all();
+        $packages = Packages::all();
 
         return view('welcome', compact("packages"));
     }
