@@ -56,6 +56,19 @@ Route::get('/support', [App\Http\Controllers\UserController::class, 'support'])-
 
 Route::get('/referral', [App\Http\Controllers\UserController::class, 'referral'])->name('dashboard.referral');
 
+Route::get('/admin/dashboard', [App\Http\Controllers\AdminController::class, 'index'])->name('admin.index');
+
+Route::get('/admin/account', [App\Http\Controllers\UserController::class, 'index'])->name('admin.transactions');
+Route::get('/admin/referrallink', [App\Http\Controllers\UserController::class, 'referrallink'])->name('dashboard.referrallink');
+
+
+
+Route::get('/admin/transactions', [App\Http\Controllers\AdminController::class, 'transactions'])->name('admin.transactions');
+Route::get('/admin/users', [App\Http\Controllers\AdminController::class, 'users'])->name('admin.users');
+
+
+
+
 
 
 
