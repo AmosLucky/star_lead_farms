@@ -130,17 +130,61 @@ class UserController extends Controller
     }
 
     public function updateprofile(Request $request){
+      $user = User::find(Auth::user()->id);
+
+      $user->name = $request->name;
+      $user->phone_number = $request->phone_number;
+
+      $user ->update();
+
+
+      return redirect()->back()->with(['msg' => 'successul']);
 
     }
 
 
     public function updatepassword(Request $request){
+
+      return redirect()->back()->with(['msg' => 'successul']);
       
     }
 
     public function referral(Request $request){
+     
+      $currenUid = Auth::user()->uid;
 
-      return view('dashboard.referral');
+     
 
+        $refs = User::where("referrer", $currenUid)->get();
+
+        //($currentRef);
+
+       
+        
+
+    
+
+      return view('dashboard.referral', compact('refs'));
+
+    }
+
+    public function referrallink(Request $request){
+
+      return view('dashboard.referral_link');
+
+    }
+
+    public function support(Request $request){
+
+      return view('dashboard.support');
+
+    }
+
+    public static  function getRefsOfUser($uid){
+      $currentUserRef = User::where("referrer", $uid)->get();
+
+        //($currentRef);
+
+        return  $currentUserRef;
     }
 }

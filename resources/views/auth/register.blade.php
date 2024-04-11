@@ -1,4 +1,13 @@
 
+@php
+$ref = "";
+if(isset($_GET['ref'])){
+    $ref = $_GET['ref'];
+}
+
+@endphp
+
+
 <style>
     a{
         text-decoration:none!important
@@ -71,7 +80,7 @@
                                 @enderror
                             </div><!-- /.col-lg-6 -->
                             <div class="col-lg-12 mb-3">
-                                <input   placeholder="Enter referrer id" id="referrer" type="text" class="input form-control @error('referrer') is-invalid @enderror" name="referrer" value="{{ old('email') }}" required autocomplete="referrer" autofocus>
+                                <input   placeholder="Enter referrer id" id="referrer" type="text" class="input form-control @error('referrer') is-invalid @enderror" name="referrer" value="{{ $ref }}"  autocomplete="referrer" autofocus>
                                     @error('referrer')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
