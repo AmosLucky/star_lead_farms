@@ -20,7 +20,7 @@
                     Refer your family and friends to start enjoying our referral bonuses (N3,000 - N30,000).</p>
                     <a>https://starleadwifarms.com/register?ref={{Auth::user()->uid}}</a>
                     <br>
-                <a href="#" class="btn btn-primary">Copy your referral link</a>
+                <button onclick="myFunction()" class="btn btn-primary">Copy your referral link</button>
             </div>
         </div>
 
